@@ -4,6 +4,7 @@ namespace ABCBrandEXAPI.Models
 {
     public class Carton
     {
+
         public int Id { get; set; }
         [Required]
         public string Status { get; set; }
