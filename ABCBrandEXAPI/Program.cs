@@ -9,6 +9,17 @@ namespace ABCBrandEXAPI
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    policy =>
+                    {
+                        policy.AllowAnyHeader();
+                        policy.AllowAnyMethod();
+                        policy.AllowAnyOrigin();
+                    });
+            });
+
             // Add services to the container.
             builder.Services.AddDbContext<AbContext>(options =>
             {
@@ -21,14 +32,18 @@ namespace ABCBrandEXAPI
 
             var app = builder.Build();
 
+            app.UseSwagger();
+            app.UseSwaggerUI();
+
             // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
+            //if (app.Environment.IsDevelopment())
+            //{
+
+            //}
 
             app.UseHttpsRedirection();
+
+            app.UseCors();
 
             app.UseAuthorization();
 

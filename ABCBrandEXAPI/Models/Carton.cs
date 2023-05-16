@@ -41,5 +41,4 @@ namespace ABCBrandEXAPI.Models
         [Required]
         public int Quantity { get; set; }
     }
-
 }
