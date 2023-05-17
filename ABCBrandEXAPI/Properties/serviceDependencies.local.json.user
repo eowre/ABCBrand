@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2023-05-17T00:08:13.1162839Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2023-05-17T00:08:02.2789057Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "0537d88d-fda4-4eb0-a13f-cee13d0753c2"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "ABCBrand"
+    }
+  }
+}
