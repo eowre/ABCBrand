@@ -9,9 +9,10 @@ namespace ABCBrandEXAPI.Models
         [Required]
         public string Status { get; set; }
 
+        
         [RegularExpression("^[a-zA-Z0-9]*$")]
         [Required]
-        [StringLength(32, MinimumLength = 32)]
+        [StringLength(32)]
         public string ArtNum { get; set; }
         [Required]
         public int Quantity { get; set; }
@@ -24,7 +25,7 @@ namespace ABCBrandEXAPI.Models
 
         [RegularExpression("^[a-zA-Z0-9]*$")]
         [Required]
-        [StringLength(32, MinimumLength = 32)]
+        [StringLength(32)]
         public string ArtNum { get; set; }
         [Required]
         public int Quantity { get; set; }
@@ -36,7 +37,7 @@ namespace ABCBrandEXAPI.Models
 
         [RegularExpression("^[a-zA-Z0-9]*$")]
         [Required]
-        [StringLength(32, MinimumLength = 32)]
+        [StringLength(32)]
         public string ArtNum { get; set; }
         [Required]
         public int Quantity { get; set; }

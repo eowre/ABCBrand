@@ -110,8 +110,15 @@ namespace ABCBrandEXAPI.Controllers
         // PUT: api/Cartons/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutCarton(int id, Carton carton)
+        public async Task<IActionResult> PutCarton(int id, CartonDTO dto)
         {
+            var carton = new Carton()
+            {
+                Id = dto.Id,
+                Status = dto.Status.ToUpper(),
+                ArtNum = dto.ArtNum,
+                Quantity = dto.Quantity
+            };
             if (id != carton.Id)
             {
                 return BadRequest();
