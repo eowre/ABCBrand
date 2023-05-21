@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "a3ralBV9srNbanLqT0eZxzvkdiFirQYhhM+bJ0NbKAtbVzuXnSDGiGZPepLYa7PGKD1aWHGABEcENuoiu5Sl3g==",
+  "dgSpecHash": "xKe/JBAcAeez6fXWjUWE5ZM9+gSpOTVP4AohVwetOkT6mTFxXXoEhV0sXtyiyu1Ttj2jDDxl0Uxnm2o2e/vcAA==",
   "success": true,
   "projectFilePath": "C:\\Users\\EAOwr\\source\\repos\\ABCBrandEXAPI\\ABCBrandEXAPI\\ABCBrandEXAPI.csproj",
   "expectedPackageFiles": [
@@ -36,6 +36,7 @@
     "C:\\Users\\EAOwr\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.16\\microsoft.entityframeworkcore.abstractions.6.0.16.nupkg.sha512",
     "C:\\Users\\EAOwr\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.16\\microsoft.entityframeworkcore.analyzers.6.0.16.nupkg.sha512",
     "C:\\Users\\EAOwr\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.16\\microsoft.entityframeworkcore.design.6.0.16.nupkg.sha512",
+    "C:\\Users\\EAOwr\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\6.0.15\\microsoft.entityframeworkcore.inmemory.6.0.15.nupkg.sha512",
     "C:\\Users\\EAOwr\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.16\\microsoft.entityframeworkcore.relational.6.0.16.nupkg.sha512",
     "C:\\Users\\EAOwr\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.15\\microsoft.entityframeworkcore.sqlserver.6.0.15.nupkg.sha512",
     "C:\\Users\\EAOwr\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.15\\microsoft.entityframeworkcore.tools.6.0.15.nupkg.sha512",

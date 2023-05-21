@@ -264,3 +264,4 @@ C:\Users\EAOwr\source\repos\ABCBrandEXAPI\ABCBrandEXAPI\obj\Debug\net6.0\refint\
 C:\Users\EAOwr\source\repos\ABCBrandEXAPI\ABCBrandEXAPI\obj\Debug\net6.0\ABCBrandEXAPI.pdb
 C:\Users\EAOwr\source\repos\ABCBrandEXAPI\ABCBrandEXAPI\obj\Debug\net6.0\ABCBrandEXAPI.genruntimeconfig.cache
 C:\Users\EAOwr\source\repos\ABCBrandEXAPI\ABCBrandEXAPI\obj\Debug\net6.0\ref\ABCBrandEXAPI.dll
+C:\Users\EAOwr\source\repos\ABCBrandEXAPI\ABCBrandEXAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
