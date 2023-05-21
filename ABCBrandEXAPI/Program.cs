@@ -9,7 +9,7 @@ namespace ABCBrandEXAPI
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.Services.AddCors(options =>
+            builder.Services.AddCors(options => // Adding CORS to the builder
             {
                 options.AddPolicy("AllowAll",
                     policy =>
@@ -21,25 +21,18 @@ namespace ABCBrandEXAPI
             });
 
             // Add services to the container.
-            builder.Services.AddDbContext<AbContext>(options =>
+            builder.Services.AddDbContext<AbContext>(options => //specifiying the database in use
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("AzureSQLConn"));
             });
-            builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            builder.Services.AddControllers();  //Adding controllers
+            builder.Services.AddEndpointsApiExplorer(); //
+            builder.Services.AddSwaggerGen();  // using swagger UI
 
             var app = builder.Build();
 
-            app.UseSwagger();
+            app.UseSwagger(); // using swagger UI
             app.UseSwaggerUI();
-
-            // Configure the HTTP request pipeline.
-            //if (app.Environment.IsDevelopment())
-            //{
-
-            //}
 
             app.UseHttpsRedirection();
 
